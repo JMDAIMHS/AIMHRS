@@ -1,0 +1,47 @@
+/* Base styles for FAQ Item */
+.faq-item {
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-radius: 20px;
+}
+
+.faq-item:hover {
+  background-color: white;
+}
+
+.faq-item.expanded {
+  background-color: white;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question-toggle {
+  font-size: 24px;
+}
+
+.faq-answer {
+  display: none;
+  margin-top: 10px;
+  color: gray;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  /* Adjust margins for smaller screens */
+  .faq-item,
+  .faq-question,
+  .faq-answer {
+    margin: 5px;
+  }
+
+  /* Adjust font size for smaller screens */
+  .question-toggle {
+    font-size: 20px;
+  }
+}
