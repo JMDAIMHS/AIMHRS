@@ -28,7 +28,7 @@ function Reviews() {
             </button>
           </div>
 
-          <div class=" box">
+          <div className=" box">
             <img src={honey} alt="" />
 
             <p>
@@ -49,7 +49,7 @@ function Reviews() {
               Read More
             </button>
           </div>
-          <div class=" box">
+          <div className=" box">
             <img
               src="https://cdn.apna.co/employerDashboard_FE/empowerment.webp"
               alt=""

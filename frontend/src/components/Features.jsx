@@ -2,51 +2,51 @@ import React from "react";
 
 function Features() {
   return (
-    <section class="featured" id="featured">
-      <div class="swiper company-slider">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide box">
-            <div class="image">
+    <section className="featured" id="featured">
+      <div className="swiper company-slider">
+        <div className="swiper-wrapper">
+          <div className="swiper-slide box">
+            <div className="image">
               <img src="images/slides1.png" alt="" />
             </div>
           </div>
-          <div class="swiper-slide box">
-            <div class="image">
+          <div className="swiper-slide box">
+            <div className="image">
               <img src="images/slides2.png" alt="" />
             </div>
           </div>
-          <div class="swiper-slide box">
-            <div class="image">
+          <div className="swiper-slide box">
+            <div className="image">
               <img src="images/slides1.png" alt="" />
             </div>
           </div>
-          <div class="swiper-slide box">
-            <div class="image">
+          <div className="swiper-slide box">
+            <div className="image">
               <img src="images/slides2.png" alt="" />
             </div>
           </div>
-          <div class="swiper-slide box">
-            <div class="image">
+          <div className="swiper-slide box">
+            <div className="image">
               <img src="images/slides1.png" alt="" />
             </div>
           </div>
-          <div class="swiper-slide box">
-            <div class="image">
+          <div className="swiper-slide box">
+            <div className="image">
               <img src="images/slides2.png" alt="" />
             </div>
           </div>
-          <div class="swiper-slide box">
-            <div class="image">
+          <div className="swiper-slide box">
+            <div className="image">
               <img src="images/slides1.png" alt="" />
             </div>
           </div>
-          <div class="swiper-slide box">
-            <div class="image">
+          <div className="swiper-slide box">
+            <div className="image">
               <img src="images/slides2.png" alt="" />
             </div>
           </div>
-          <div class="swiper-slide box">
-            <div class="image">
+          <div className="swiper-slide box">
+            <div className="image">
               <img src="images/slides1.png" alt="" />
             </div>
           </div>

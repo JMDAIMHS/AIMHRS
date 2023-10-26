@@ -7,7 +7,7 @@ import "datatables.net-responsive-dt";
 const Data = () => {
   return (
     <div>
-      <table id="table_id" class="display">
+      <table id="table_id" className="display">
         <thead>
           <tr>
             <th>Name</th>

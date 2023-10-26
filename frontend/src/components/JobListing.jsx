@@ -404,8 +404,8 @@ function JobListing() {
                             className="flex items-center"
                             style={{ width: "100%" }}
                           >
-                            <a href="#" class="pt-3 pb-3 pr-3 pl-0">
-                              <span class="icon-whatsapp">
+                            <a href="#" className="pt-3 pb-3 pr-3 pl-0">
+                              <span className="icon-whatsapp">
                                 <img
                                   src="http://www.pngall.com/wp-content/uploads/2016/04/WhatsApp-Transparent.png"
                                   alt="WhatsApp"
@@ -418,8 +418,8 @@ function JobListing() {
                               </span>
                             </a>
                             <div className="px-3">
-                              <a href="#" class="pt-3 pb-3 pr-3 pl-0">
-                                <span class="icon-facebook">
+                              <a href="#" className="pt-3 pb-3 pr-3 pl-0">
+                                <span className="icon-facebook">
                                   <img
                                     src={Facebook}
                                     alt=""
@@ -431,8 +431,8 @@ function JobListing() {
                                   />
                                 </span>
                               </a>
-                              <a href="#" class="pt-3 pb-3 pr-3 pl-0">
-                                <span class="icon-linkdin">
+                              <a href="#" className="pt-3 pb-3 pr-3 pl-0">
+                                <span className="icon-linkdin">
                                   <img
                                     src={Linkdin}
                                     alt=""
@@ -444,8 +444,8 @@ function JobListing() {
                                   />
                                 </span>
                               </a>
-                              <a href="#" class="pt-3 pb-3 pr-3 pl-0">
-                                <span class="icon-twitter">
+                              <a href="#" className="pt-3 pb-3 pr-3 pl-0">
+                                <span className="icon-twitter">
                                   <img
                                     src={Twitter}
                                     alt=""
@@ -457,8 +457,8 @@ function JobListing() {
                                   />
                                 </span>
                               </a>
-                              <a href="#" class="pt-3 pb-3 pr-3 pl-0">
-                                <span class="icon-pinterest">
+                              <a href="#" className="pt-3 pb-3 pr-3 pl-0">
+                                <span className="icon-pinterest">
                                   <img
                                     src={Pinterest}
                                     alt=""
