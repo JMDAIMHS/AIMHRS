@@ -41,7 +41,7 @@ function SalesEnquiry() {
         },
       })
       .then((response) => {
-        console.log("API Response:", response.data);
+        // console.log("API Response:", response.data);
         if (response.status === 201) {
           window.location.href = "/";
         }

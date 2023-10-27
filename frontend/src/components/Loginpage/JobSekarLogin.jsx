@@ -34,7 +34,7 @@ function JobSeekerLoginForm() {
         }
       })
       .catch((error) => {
-        console.error("Error:", error);
+        // console.error("Error:", error);
         setMessage("An error occurred while processing your request.");
       });
   };

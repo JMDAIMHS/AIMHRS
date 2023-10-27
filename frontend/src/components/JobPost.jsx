@@ -48,7 +48,7 @@ const JobPost = ({ onClose }) => {
       })
 
       .then((response) => {
-        console.log("API Response:", response.data);
+        // console.log("API Response:", response.data);
         if (response.status === 201) {
           // window.location.href = "/";
           setSuccessMessage("Job posted successfully!");
@@ -70,7 +70,7 @@ const JobPost = ({ onClose }) => {
       })
 
       .catch((error) => {
-        console.error("Error:", error);
+        // console.error("Error:", error);
       });
   };
   if (!user) {
