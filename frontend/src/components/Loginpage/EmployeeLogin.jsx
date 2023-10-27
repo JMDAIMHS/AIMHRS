@@ -15,6 +15,8 @@ function EmployerLoginForm() {
   const [userData, setUserData] = useState("");
   const [username, setUsername] = useState("");
 
+  const myRef = useRef(); // Create a ref
+
   const handleEmailChange = (e) => {
     setEmail(e.target.value);
   };
@@ -182,7 +184,7 @@ function EmployerLoginForm() {
                   name="submit"
                   style={{ marginTop: "13px" }}
                   onClick={handleSubmit}
-                  UseRef={handleSubmit}
+                  myRef={handleSubmit}
                 >
                   LOGIN
                 </button>
