@@ -84,6 +84,15 @@ app.use(
   })
 );
 
+// Root Route
+app.get("/", (req, res) => {
+  // Your response logic for the root route ("/") here
+
+  // For example, send a simple "Hello, World!" response:
+  res.send("Hello, World!");
+});
+
+
 // Allow cors 
 const allowedOrigins = ['https://allindiamarketinghrsolution.com'];
 
