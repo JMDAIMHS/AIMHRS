@@ -92,22 +92,20 @@ app.get("/", (req, res) => {
   res.send("Hello, World!");
 });
 
-
-// Allow cors 
-const allowedOrigins = ['https://allindiamarketinghrsolution.com'];
+// Allow cors
+const allowedOrigins = ["https://allindiamarketinghrsolution.com"];
 
 const corsOptions = {
   origin: function (origin, callback) {
     if (allowedOrigins.indexOf(origin) !== -1) {
       callback(null, true);
     } else {
-      callback(new Error('Not allowed by CORS'));
+      callback(new Error("Not allowed by CORS"));
     }
   },
 };
 
 app.use(cors(corsOptions));
-
 
 app.use(cookieParser());
 
@@ -127,6 +125,7 @@ const storage = multer.diskStorage({
     );
   },
 });
+
 const upload = multer({ storage });
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 // app.post("/api/users", upload.single("resume"), async (req, res) => {
