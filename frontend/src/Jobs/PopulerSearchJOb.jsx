@@ -69,7 +69,6 @@ function PopularSearchCard({
 
 function PopularSearches() {
   return (
-    // <br />
     <div
       id="popular-searches"
       className="mx-auto flex max-w-screen-xl grid-cols-3 grid-rows-2 flex-col flex-wrap gap-4 px-4 py-[72px] md:grid md:py-[100px]"
