@@ -76,7 +76,6 @@ export const AuthProvider = ({ children }) => {
       }}
     >
       {children}
-      {/* <App /> */}
     </AuthContext.Provider>
   );
 };
