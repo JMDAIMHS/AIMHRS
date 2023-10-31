@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f95a5315.css",
+    "main.js": "/static/js/main.6abb3a9f.js",
+    "static/media/blog1.jpg": "/static/media/blog1.e9bdeb44bc009e09abdd.jpg",
+    "static/media/blog2.jpg": "/static/media/blog2.3556219ee68b30b54e7a.jpg",
+    "static/media/youtube.png": "/static/media/youtube.0b5a749ab563613f26f4.png",
+    "static/media/AIMHS.png": "/static/media/AIMHS.4884478a2b24b0a711a5.png",
+    "static/media/frontLogo1.jpg": "/static/media/frontLogo1.9f0827bc224107bbe801.jpg",
+    "static/media/kunal.jpg": "/static/media/kunal.16fa08d03e1f0a08d8d9.jpg",
+    "static/media/blog3.jpg": "/static/media/blog3.9eccb7584f99dfbc4dfd.jpg",
+    "static/media/fbicon.png": "/static/media/fbicon.4ea7a0832f45e1ece0e2.png",
+    "static/media/insta.png": "/static/media/insta.b9b487e291476e0d1fed.png",
+    "static/media/honey.jpeg": "/static/media/honey.6c1d8eaaf5a0c6d8eadd.jpeg",
+    "static/media/linkdin.png": "/static/media/linkdin.770f3dc2afd8314b011c.png",
+    "static/media/twiter.png": "/static/media/twiter.57573394db94634d7e1f.png",
+    "static/media/pinterest.png": "/static/media/pinterest.c0bf18f998816d009ce9.png",
+    "index.html": "/index.html",
+    "main.f95a5315.css.map": "/static/css/main.f95a5315.css.map",
+    "main.6abb3a9f.js.map": "/static/js/main.6abb3a9f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f95a5315.css",
+    "static/js/main.6abb3a9f.js"
+  ]
+}
