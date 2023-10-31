@@ -4,13 +4,10 @@ import JobSeekerLoginForm from "./Loginpage/JobSekarLogin";
 import { useAuth } from "./Authentication/AuthContext";
 import Logo from "./Images/frontLogo1.jpg";
 import "../App.css";
-// import JobListing from "./JobListing";
-import JobListing1 from "./Joblisting1";
 
 function Home() {
   const { user, employer } = useAuth();
   const [isEmployerLogin, setIsEmployerLogin] = useState(true);
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const toggleLoginType = () => {
     setIsEmployerLogin(!isEmployerLogin);
@@ -31,7 +28,6 @@ function Home() {
     setJobSeekerLoginFormVisible(true);
   };
 
-  // console.log(employer, "emp");
   return (
     <section className="home" id="home">
       <div className="row">
