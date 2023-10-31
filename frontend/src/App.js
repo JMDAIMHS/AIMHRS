@@ -48,7 +48,7 @@ function App() {
     } else if (isNumber(input)) {
       // It's a valid number, handle it as a number
     } else {
-      // It's neither a valid email nor a number, handle the error
+    
     }
 
     try {
