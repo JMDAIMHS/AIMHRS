@@ -48,7 +48,6 @@ function App() {
     } else if (isNumber(input)) {
       // It's a valid number, handle it as a number
     } else {
-    
     }
 
     try {

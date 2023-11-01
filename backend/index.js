@@ -1,87 +1,33 @@
-// const express = require("express");
-// const mongoose = require("mongoose");
-// const userModel = require("./models/User.js");
-
-// const app = express();
-// require("dotenv").config();
-// app.use(express.json());
-
-// const PORT = process.env.PORT || 8000;
-
-// // mongoose to connect
-// mongoose.connect("mongodb://127.0.0.1:27017/jmd");
-
-// // GET API
-// app.get("/", (req, res) => {
-//   res.send("Get api working");
-// });
-
-// // post API
-// app.post("/post", (req, res) => {
-//   userModel
-//     .create(req.body)
-//     .then((users) => {
-//       res.json(users);
-//     })
-//     .catch((err) => {
-//       res.json(err);
-//     });
-// });
-
-// // put API
-// app.put("/put", (req, res) => {
-//   res.send("put api working");
-// });
-
-// // patch API
-// app.patch("/patch", (req, res) => {
-//   res.send("patch api working");
-// });
-
-// // delete API
-// app.delete("/delete", (req, res) => {
-//   res.send("delete api working");
-// });
-
-// // listen
-// app.listen(PORT, () => {
-//   console.log(`Server is running at ${PORT}`);
-// });
-
-// Testing
-
 const express = require("express");
 const mongoose = require("mongoose");
 const multer = require("multer");
 const path = require("path");
 const cors = require("cors");
-const app = express();
+
 const nodemailer = require("nodemailer");
-require("dotenv").config();
+const dotenv = require("dotenv").config();
 
 const cookieParser = require("cookie-parser");
 const authRoute = require("./Routes/AuthRoute");
-const { MONGO_URL, PORT } = process.env;
-app.use(express.urlencoded({ extended: true }));
+const app = express();
+
+mongoose.set("strictQuery", false);
+// mongoose.connect(process.env.MONGO_URL, () => console.log('DB is successfully connected'))
 
 mongoose
-  .connect(MONGO_URL, {
+  .connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
   .then(() => console.log("MongoDB is  connected successfully"))
   .catch((err) => console.error(err));
 
-app.listen(PORT, () => {
-  console.log(`Server is listening on port ${PORT}`);
-});
+app.use(cors());
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
-app.use(
-  cors({
-    origin: ["http://localhost:3000"],
-    methods: ["GET", "POST", "PUT", "DELETE"],
-    credentials: true,
-  })
+app.listen(process.env.PORT, () =>
+  console.log("Server has been started successfully")
 );
 
 // Root Route
@@ -93,23 +39,32 @@ app.get("/", (req, res) => {
 });
 
 // Allow cors
-const allowedOrigins = ["https://allindiamarketinghrsolution.com"];
+// app.use(function(req, res, next) {
+//    res.header("Access-Control-Allow-Origin", "*");
+//   const allowedOrigins = ['http://localhost:3000', 'https://aimhrs.netlify.app', 'https://aimhrs.netlify.app'];
+//   const origin = req.headers.origin;
+//   if (allowedOrigins.includes(origin)) {
+//        res.setHeader('Access-Control-Allow-Origin', origin);
+//   }
+//   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization");
+//   res.header("Access-Control-Allow-credentials", true);
+//   res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, UPDATE");
+//   next();
+// });
+//  const allowedOrigins = ["https://aimhrs.netlify.app"];
 
-const corsOptions = {
-  origin: function (origin, callback) {
-    if (allowedOrigins.indexOf(origin) !== -1) {
-      callback(null, true);
-    } else {
-      callback(new Error("Not allowed by CORS"));
-    }
-  },
-};
+// const corsOptions = {
+//   origin: function (origin, callback) {
+//     if (allowedOrigins.indexOf(origin) !== -1) {
+//       callback(null, true);
+//     } else {
+//       callback(new Error("Not allowed by CORS"));
+//     }
+//   },
+// };
 
-app.use(cors(corsOptions));
-
+// app.use(cors(corsOptions));
 app.use(cookieParser());
-
-app.use(express.json());
 
 app.use("/", authRoute);
 
