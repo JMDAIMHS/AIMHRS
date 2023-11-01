@@ -29,7 +29,7 @@ function ResetPassword() {
     }
 
     axios
-      .post("http://localhost:8001/reset-password", {
+      .post("https://aimhrs-3xlq.onrender.com/reset-password", {
         password,
         resetToken, // Pass the reset token to the server
       })

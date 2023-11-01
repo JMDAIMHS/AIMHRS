@@ -30,11 +30,14 @@ function JobSeekerSignUpForm() {
     e.preventDefault();
 
     try {
-      const response = await axios.post("http://localhost:8001/signup", {
-        username,
-        email,
-        password,
-      });
+      const response = await axios.post(
+        "https://aimhrs-3xlq.onrender.com/signup",
+        {
+          username,
+          email,
+          password,
+        }
+      );
       // console.log(response.data);
       if (response.status === 201) {
         const userData = response.data;

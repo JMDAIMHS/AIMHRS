@@ -29,10 +29,13 @@ function EmployerLoginForm() {
     e.preventDefault();
 
     try {
-      const response = await axios.post("http://localhost:8001/employerlogin", {
-        email,
-        password,
-      });
+      const response = await axios.post(
+        "https://aimhrs-3xlq.onrender.com/employerlogin",
+        {
+          email,
+          password,
+        }
+      );
       // console.log(response.data);
       if (response.status === 200) {
         const userData = response.data;
