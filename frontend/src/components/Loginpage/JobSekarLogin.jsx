@@ -25,7 +25,7 @@ function JobSeekerLoginForm() {
 
   const resetPassword = () => {
     axios
-      .post("http://localhost:8001/reset-password", { email })
+      .post("https://aimhrs-3xlq.onrender.com/reset-password", { email })
       .then((response) => {
         if (response.data.success) {
           setMessage("Password reset link sent to your email.");
@@ -42,10 +42,13 @@ function JobSeekerLoginForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:8001/login", {
-        email,
-        password,
-      });
+      const response = await axios.post(
+        "https://aimhrs-3xlq.onrender.com/login",
+        {
+          email,
+          password,
+        }
+      );
       if (response.status === 200) {
         const userData = response.data;
         const username = userData.user.username;

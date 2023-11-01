@@ -19,7 +19,7 @@ function YourComponent() {
   useEffect(() => {
     // Make an API request to fetch job listings
     axios
-      .get("http://localhost:8001/jobseekersdata")
+      .get("https://aimhrs-3xlq.onrender.com/jobseekersdata")
       .then((response) => {
         setJobs(response.data); // Set the fetched data to the 'jobs' state
       })
@@ -30,7 +30,7 @@ function YourComponent() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8001/getsalesenquiry")
+      .get("https://aimhrs-3xlq.onrender.com/getsalesenquiry")
       .then((response) => {
         setsales(response.data);
       })
@@ -42,7 +42,7 @@ function YourComponent() {
   const [visitCount, setVisitCount] = useState(0);
 
   useEffect(() => {
-    fetch("http://localhost:8001/api/visit-count")
+    fetch("https://aimhrs-3xlq.onrender.com/api/visit-count")
       .then((res) => res.json())
       .then((data) => setVisitCount(data.count))
       .catch((error) => console.error(error));
@@ -187,7 +187,7 @@ function YourComponent() {
                   styl
                 >
                   <a
-                    href={`http://localhost:8001/api/download/${job.resumePath}`} // Replace with the correct URL
+                    href={`https://aimhrs-3xlq.onrender.com/api/download/${job.resumePath}`} // Replace with the correct URL
                     target="_blank"
                     download
                     rel="noopener noreferrer"

@@ -32,7 +32,7 @@ const JobApplicationForm = ({ onClose }) => {
     formData.append("profile", EmpoyerDetails.profile);
 
     axios
-      .post("http://localhost:8001/register", formData)
+      .post("https://aimhrs-3xlq.onrender.com/register", formData)
       .then((res) => {
         console.log(res);
         if (res.status === 200) {

@@ -35,7 +35,7 @@ function SalesEnquiry() {
     };
 
     axios
-      .post("http://localhost:8001/salesenquiry", jobData, {
+      .post("https://aimhrs-3xlq.onrender.com/salesenquiry", jobData, {
         headers: {
           "Content-Type": "application/json",
         },

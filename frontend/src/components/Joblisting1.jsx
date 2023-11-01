@@ -16,7 +16,7 @@ function JobListing1() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8001/jobpostdata")
+      .get("https://aimhrs-3xlq.onrender.com/jobpostdata")
       .then((response) => {
         setJobData(response.data);
       })

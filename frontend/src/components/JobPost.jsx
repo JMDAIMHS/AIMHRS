@@ -41,7 +41,7 @@ const JobPost = ({ onClose }) => {
     };
 
     axios
-      .post("http://localhost:8001/jobpost", jobData, {
+      .post("https://aimhrs-3xlq.onrender.com/jobpost", jobData, {
         headers: {
           "Content-Type": "application/json",
         },

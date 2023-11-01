@@ -34,13 +34,16 @@ function EmployerSignUpFrom() {
     e.preventDefault();
 
     try {
-      const response = await axios.post("http://localhost:8001/employer", {
-        username,
-        mobile,
-        company_name,
-        email,
-        password,
-      });
+      const response = await axios.post(
+        "https://aimhrs-3xlq.onrender.com/employer",
+        {
+          username,
+          mobile,
+          company_name,
+          email,
+          password,
+        }
+      );
       // console.log(response.data);
       if (response.status === 201) {
         const userData = response.data;
