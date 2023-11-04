@@ -22,6 +22,7 @@ function Reviews() {
                 width: "100px",
                 fontWeight: "bold",
                 borderRadius: "10px",
+                marginTop: "20px",
               }}
             >
               Read More

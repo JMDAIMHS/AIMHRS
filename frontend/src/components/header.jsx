@@ -49,7 +49,7 @@ function Header() {
                   color: "black",
                 }}
               >
-                Welcome , {user?.username || employer?.username}
+                Welcome , {user?.username || employer?.username || user}
               </p>
               <button onClick={handleLogout}>Logout</button>
             </>
