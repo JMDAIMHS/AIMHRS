@@ -59,7 +59,7 @@ function SalesEnquiry() {
       <div className="contact-section">
         <h2 className="section-title">Sales Enquiry</h2>
         <form style={{ textAlign: "center" }} onSubmit={handleSubmit}>
-          <div className="inputt">
+          <div className="inputt" style={{ gap: "10px" }}>
             <div className="input-group">
               <input
                 type="text"
@@ -81,7 +81,7 @@ function SalesEnquiry() {
               />
             </div>
           </div>
-          <div className="inputt">
+          <div className="inputt" style={{ gap: "10px" }}>
             <div className="input-group">
               <input
                 type="email"
@@ -104,7 +104,7 @@ function SalesEnquiry() {
               />
             </div>
           </div>
-          <div className="inputt">
+          <div className="inputt" style={{ gap: "10px" }}>
             <div className="input-group">
               <input
                 type="text"
@@ -138,7 +138,7 @@ function SalesEnquiry() {
               style={{ color: "black", fontSize: "17px" }}
               name="about"
               cols="30"
-              rows="5"
+              rows="3"
               placeholder="Tell us how we can help you..."
               value={salesEnquiry.about}
               onChange={handleChange}
@@ -147,7 +147,7 @@ function SalesEnquiry() {
           <button
             type="submit"
             className="submit-button"
-            style={{ width: "100%" }}
+            style={{ width: "30%" }}
           >
             Submit
           </button>

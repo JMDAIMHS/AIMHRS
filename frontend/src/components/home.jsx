@@ -45,7 +45,7 @@ function Home() {
               <div id="card">
                 <div id="card-content">
                   <h1 style={{ color: "#287c7b" }}>Welcome To AIMHRS</h1>
-                  <img src={Logo} alt="" />
+                  <img src={Logo} alt="logo" />
                 </div>
               </div>
             </div>

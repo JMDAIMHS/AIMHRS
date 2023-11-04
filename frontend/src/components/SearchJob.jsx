@@ -6,7 +6,7 @@ const SearchJob = () => {
   return (
     <div className="search-job" style={{ zIndex: 100 }}>
       <div className="search-header">
-        <h1>INDIA’S #1 JOB PLATFORM</h1>
+        <h2>INDIA’S #1 JOB PLATFORM</h2>
         <p>Your job search ends here</p>
         <p>Discover 50 lakh+ career opportunities</p>
         <p>Search jobs by 'company'</p>

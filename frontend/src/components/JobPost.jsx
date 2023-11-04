@@ -95,7 +95,7 @@ const JobPost = ({ onClose }) => {
           X
         </button>
         <br />
-        <h1>Job Details</h1>
+        <h2>Job Details</h2>
         <hr />
         <label>Job Title:</label>
         <input
@@ -147,7 +147,7 @@ const JobPost = ({ onClose }) => {
         ></textarea>
         <br />
         <br />
-        <h1>Company Details</h1>
+        <h2>Company Details</h2>
         <hr />
         <label>Company Name:</label>
         <input

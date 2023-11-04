@@ -24,7 +24,7 @@ function BlogContent({ onClose }) {
         </p>
         <img
           src={Blog1}
-          alt=""
+          alt="blog"
           style={{ width: "400px", alignItems: "center" }}
         />
         <br />

@@ -18,7 +18,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="sidebar-header">
-        <h1 className="sidebar-title">MrEngineer</h1>
+        <h2 className="sidebar-title">MrEngineer</h2>
       </div>
       <div className="sidebar-section">
         <p className="sidebar-text">CORE</p>

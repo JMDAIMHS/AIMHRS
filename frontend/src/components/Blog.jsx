@@ -42,7 +42,7 @@ function Blog() {
       <div className="reviews-slider">
         <div className="wrapper">
           <div className="box">
-            <img src={Blog1} alt="" />
+            <img src={Blog1} alt="Blog" />
 
             <h2 style={{ marginTop: "30px" }}>
               Top High Paying Jobs in India 2023 – The AIMHRS
@@ -75,7 +75,7 @@ function Blog() {
           </div>
 
           <div className="box">
-            <img src={Blog2} alt="" />
+            <img src={Blog2} alt="Blog" />
             <h2 style={{ marginTop: "30px" }}>
               Advantages of Being an Accountant and How AIMHRS Can Elevate Your
               Career
@@ -107,7 +107,7 @@ function Blog() {
           </div>
 
           <div className="box">
-            <img src={Blog3} alt="" />
+            <img src={Blog3} alt="Blog" />
             <h2 style={{ marginTop: "30px" }}>
               15 Best Jobs for Teenagers to Consider for the Future - With
               Opportunities from AIMHRS

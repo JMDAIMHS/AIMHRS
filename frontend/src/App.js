@@ -7,7 +7,6 @@ import "./App.css";
 import { useState } from "react";
 import Next from "./components/Next";
 import Consultation from "./components/Consultation";
-import Features from "./components/Features";
 import Reviews from "./components/Reviews";
 import SalesEnquiry from "./components/SalesEnquiry";
 import Footer from "./components/Footer";
@@ -120,7 +119,7 @@ function App() {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta
             name="keywords"
-            content="All India Marketing HR Solution, AIMHRS, Jobs In Noida, Hire Candidates, Jobs in Delhi, Post Free Jobs, Post Free Jobs in India,Discover your ideal job or connect with top talent effortlessly with All India Marketing HR Solution, Noida's leading job portal. Post job listings, explore diverse employment opportunities, and streamline your hiring process with us. Find your perfect fit in the dynamic Indian job market today! "
+            content="All India Marketing HR Solution, AIMHRS, Jobs In Noida, Hire Candidates, Jobs in Delhi, Post Free Jobs, Post Free Jobs in India,Discover your ideal job or connect with top talent effortlessly with All India Marketing HR Solution, Noida's leading job portal. Post job listings, explore diverse employment opportunities."
           />
           <meta name="ROBOTS" content="index, follow" />
           <link
@@ -290,7 +289,7 @@ function App() {
                   <div className="system">
                     <img
                       src="https://framerusercontent.com/images/1uIlwEEpRUpZTa12rq7s48QsQu0.png"
-                      alt=""
+                      alt="Lead"
                     />
                   </div>
                 </div>
@@ -299,9 +298,9 @@ function App() {
                   style={{ width: "100%", marginLeft: "0", padding: "20px" }}
                 >
                   <h3 style={{ color: "green" }}>GET STARTED WITH AIMHS</h3>
-                  <h1 style={{ fontSize: "4rem", marginBottom: "20px" }}>
+                  <h2 style={{ fontSize: "4rem", marginBottom: "20px" }}>
                     Post a job in minutes
-                  </h1>
+                  </h2>
                   <p style={{ fontSize: "2rem", width: "100%" }}>
                     Revolutionize your hiring with our AI-powered algorithm.
                   </p>
@@ -341,7 +340,7 @@ function App() {
               >
                 <div className="boxx">
                   <h3 style={{ color: "green" }}>HIRE FASTER, HIRE BETTER</h3>
-                  <h1 style={{ fontSize: "4rem" }}>Introducing Database</h1>
+                  <h2 style={{ fontSize: "4rem" }}>Introducing Database</h2>
                   <p style={{ fontSize: "2rem", width: "70%" }}>
                     Find candidates based on location, skills, and salary
                     preferences from India’s fastest-growing talent pool.
@@ -373,7 +372,7 @@ function App() {
                   <div className="system">
                     <img
                       src="https://framerusercontent.com/images/TKTGrBTZ7VNB1xvI2gNuY5SHfg.png"
-                      alt="Apna Database"
+                      alt="AIMHRS Database"
                       loading="lazy"
                     />
                   </div>

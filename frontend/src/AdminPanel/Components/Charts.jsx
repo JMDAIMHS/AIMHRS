@@ -9,7 +9,7 @@ const Charts = () => {
     <div id="layoutSidenav_content">
       <main>
         <div className="container-fluid px-4">
-          <h1 className="chart-title">Charts</h1>
+          <h2 className="chart-title">Charts</h2>
           <ol className="breadcrumb">
             <li className="breadcrumb-item">
               <a href="index.html">Dashboard</a>

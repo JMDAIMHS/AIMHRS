@@ -65,35 +65,35 @@ const Main = () => {
   return (
     <div className="container">
       <div className="flex items-center justify-between">
-        <h1 className="page-title">Dashboard</h1>
+        <h2 className="page-title">Dashboard</h2>
         <button className="generate-report-button">Generate Report</button>
       </div>
       <div className="card-grid">
         <div className="card card-primary">
           <div>
             <h2 className="card-content">Primary Card</h2>
-            <h1 className="card-link">View Details</h1>
+            <h2 className="card-link">View Details</h2>
           </div>
           <FaRegCalendarMinus className="card-icon" />
         </div>
         <div className="card card-warning">
           <div>
             <h2 className="card-content">Warning Card</h2>
-            <h1 className="card-link">View Details</h1>
+            <h2 className="card-link">View Details</h2>
           </div>
           <FaRegCalendarMinus className="card-icon" />
         </div>
         <div className="card card-success">
           <div>
             <h2 className="card-content">Success Card</h2>
-            <h1 className="card-link">View Details</h1>
+            <h2 className="card-link">View Details</h2>
           </div>
           <FaRegCalendarMinus className="card-icon" />
         </div>
         <div className="card card-danger">
           <div>
             <h2 className="card-content">Danger Card</h2>
-            <h1 className="card-link">View Details</h1>
+            <h2 className="card-link">View Details</h2>
           </div>
           <FaRegCalendarMinus className="card-icon" />
         </div>

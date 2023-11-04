@@ -5,7 +5,7 @@ const Tables = () => {
   return (
     <div id="layoutSidenav_content">
       <div className="basis-[50%]">
-        <h1 className="mt-4">Tables</h1>
+        <h2 className="mt-4">Tables</h2>
         <ol className="breadcrumb mb-4">
           <li className="breadcrumb-item">
             <a href="/">Dashboard</a>

@@ -140,7 +140,6 @@ function YourComponent() {
             <li
               key={index}
               className="job-listing d-block d-sm-flex pb-3 pb-sm-0 align-items-center"
-              style={{ width: "100%", height: "50px", gap: "10px" }}
             >
               <div
                 className="job-listing-position custom-width w-40 mb-3 mb-sm-0"
@@ -242,7 +241,7 @@ function YourComponent() {
         </nav>
       </div>
       <div style={{ padding: "20px" }}>
-        <h1>Sales Enquiries</h1>
+        <h2>Sales Enquiries</h2>
         <ul>
           {sales.map((sale) => (
             <li
