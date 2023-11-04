@@ -82,7 +82,7 @@ function JobListing1() {
   const nextPage = currentPage + 1;
 
   return (
-    <div className="container" id="joblist">
+    <div className="p-2" id="joblist">
       <div className="row mb-5 justify-content-center">
         <div className="col-md-7 text-center">
           <h2 className="section-title mb-2">
@@ -138,21 +138,24 @@ function JobListing1() {
       </div>
 
       <ul className="job-listings mb-5">
-        {currentJobs.map((job, index) => (
+        {[...currentJobs].reverse().map((job, index) => (
           <li
             key={index}
             className="job-listing d-block d-sm-flex pb-3 pb-sm-0 align-items-center"
           >
-            <div className="job-listing-position custom-width w-50 mb-3 mb-sm-0 ">
+            <div
+              className="job-listing-position custom-width w-100 mb-3 mb-sm-0 "
+              style={{ padding: "10px" }}
+            >
               <h2>
                 <strong>{job.company_name}</strong>
               </h2>
             </div>
-            <div className="job-listing-position custom-width w-50 mb-3 mb-sm-0">
+            <div className="job-listing-position custom-width w-100 mb-3 mb-sm-0">
               <h2>{job.position}</h2>
             </div>
 
-            <div className="job-listing-position custom-width w-50 mb-3 mb-sm-0">
+            <div className="job-listing-position custom-width w-100 mb-3 mb-sm-0">
               <span
                 className="icon-room"
                 style={{ fontWeight: "bold", fontSize: "15px" }}
@@ -160,7 +163,7 @@ function JobListing1() {
                 {job.experience}
               </span>
             </div>
-            <div className="job-listing-locationcustom-width w-50 mb-3 mb-sm-0">
+            <div className="job-listing-locationcustom-width w-100 mb-3 mb-sm-0">
               <span
                 className="icon-room"
                 style={{ fontWeight: "bold", fontSize: "15px" }}
@@ -174,9 +177,14 @@ function JobListing1() {
                 className={`badge badge-danger h-150 w-250 ${
                   selectedJobs.includes(job) ? "selected" : ""
                 }`}
-                style={{ background: "darkred" }}
+                style={{
+                  background: "darkred",
+                  height: "20px",
+                  width: "90px",
+                  fontSize: "12px",
+                }}
               >
-                {job.job_type}
+                {/* {job.job_type} */}APPLY NOW
               </button>
             </div>
           </li>

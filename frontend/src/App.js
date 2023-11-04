@@ -125,7 +125,7 @@ function App() {
           <meta name="ROBOTS" content="index, follow" />
           <link
             rel="shortcut icon"
-            href="images/imhrs.png"
+            // href="images/imhrs.png"
             type="image/x-icon"
           />
           <meta name="ROBOTS" content="ALL" />
