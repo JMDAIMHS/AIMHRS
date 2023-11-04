@@ -2,6 +2,7 @@
 
 .company-container {
   /* Add any additional styling for the container */
+  margin: 10px;
 }
 
 .company-logos {
