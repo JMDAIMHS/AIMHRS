@@ -58,7 +58,7 @@ function FAQContainer() {
         style={{ backgroundColor: " rgb(246, 244, 255)" }}
       >
         <div className="faq-header">
-          <p
+          {/* <p
             className="faq-heading"
             style={{
               textAlign: "center",
@@ -69,13 +69,14 @@ function FAQContainer() {
             }}
           >
             FAQ
-          </p>
+          </p> */}
           <h1
             className="faq-main-heading"
             style={{
               textAlign: "center",
               alignItems: "center",
               fontSize: "30px",
+              padding: "10px",
             }}
           >
             Frequently asked

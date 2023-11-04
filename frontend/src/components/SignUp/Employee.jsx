@@ -51,6 +51,7 @@ function EmployerSignUpFrom() {
         setIsSuccess(true);
         setMessage("Login successful");
         setUsername(username);
+        console.log(username);
         signup(username);
       } else {
         setIsSuccess(false);

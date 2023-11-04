@@ -62,6 +62,7 @@ function Blog() {
                 width: "100px",
                 fontWeight: "bold",
                 borderRadius: "10px",
+                marginTop: "10px",
               }}
             >
               Read More
@@ -93,7 +94,7 @@ function Blog() {
                 width: "100px",
                 fontWeight: "bold",
                 borderRadius: "10px",
-                marginTop: "75px",
+                marginTop: "40px",
               }}
             >
               Read More
@@ -125,7 +126,7 @@ function Blog() {
                 width: "100px",
                 fontWeight: "bold",
                 borderRadius: "10px",
-                marginTop: "20px",
+                marginTop: "10px",
               }}
             >
               Read More
