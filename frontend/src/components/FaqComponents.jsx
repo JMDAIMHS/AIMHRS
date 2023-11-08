@@ -58,19 +58,7 @@ function FAQContainer() {
         style={{ backgroundColor: " rgb(246, 244, 255)" }}
       >
         <div className="faq-header">
-          {/* <p
-            className="faq-heading"
-            style={{
-              textAlign: "center",
-              fontSize: "18px",
-              color: "green",
-              fontWeight: "bolder",
-              padding: "30px",
-            }}
-          >
-            FAQ
-          </p> */}
-          <h1
+          <h2
             className="faq-main-heading"
             style={{
               textAlign: "center",
@@ -82,10 +70,13 @@ function FAQContainer() {
             Frequently asked
             <br />
             questions.
-          </h1>
+          </h2>
         </div>
 
-        <div className="faq-container" style={{ paddingBottom: "20px" }}>
+        <div
+          className="faq-container"
+          style={{ paddingBottom: "20px", margin: "90px" }}
+        >
           {faqItems.map((item, index) => (
             <FAQItem
               key={index}

@@ -422,7 +422,7 @@ function JobListing() {
                                 <span className="icon-facebook">
                                   <img
                                     src={Facebook}
-                                    alt=""
+                                    alt="facebook"
                                     style={{
                                       height: "4%",
                                       width: "4%",
@@ -435,7 +435,7 @@ function JobListing() {
                                 <span className="icon-linkdin">
                                   <img
                                     src={Linkdin}
-                                    alt=""
+                                    alt="linkdin"
                                     style={{
                                       height: "4%",
                                       width: "4%",
@@ -448,7 +448,7 @@ function JobListing() {
                                 <span className="icon-twitter">
                                   <img
                                     src={Twitter}
-                                    alt=""
+                                    alt="twitter"
                                     style={{
                                       height: "4%",
                                       width: "4%",
@@ -461,7 +461,7 @@ function JobListing() {
                                 <span className="icon-pinterest">
                                   <img
                                     src={Pinterest}
-                                    alt=""
+                                    alt="pinterest"
                                     style={{
                                       height: "4%",
                                       width: "4%",
@@ -706,7 +706,7 @@ function JobListing() {
                                 <span class="icon-facebook">
                                   <img
                                     src={Facebook}
-                                    alt=""
+                                    alt="facebook"
                                     style={{
                                       height: "4%",
                                       width: "4%",
@@ -719,7 +719,7 @@ function JobListing() {
                                 <span class="icon-linkdin">
                                   <img
                                     src={Linkdin}
-                                    alt=""
+                                    alt="linkdin"
                                     style={{
                                       height: "4%",
                                       width: "4%",
@@ -732,7 +732,7 @@ function JobListing() {
                                 <span class="icon-twitter">
                                   <img
                                     src={Twitter}
-                                    alt=""
+                                    alt="twitter"
                                     style={{
                                       height: "4%",
                                       width: "4%",
@@ -745,7 +745,7 @@ function JobListing() {
                                 <span class="icon-pinterest">
                                   <img
                                     src={Pinterest}
-                                    alt=""
+                                    alt="pinterest"
                                     style={{
                                       height: "4%",
                                       width: "4%",
@@ -1033,7 +1033,7 @@ function JobListing() {
                                 <span class="icon-facebook">
                                   <img
                                     src={Facebook}
-                                    alt=""
+                                    alt="facebook"
                                     style={{
                                       height: "4%",
                                       width: "4%",
@@ -1046,7 +1046,7 @@ function JobListing() {
                                 <span class="icon-linkdin">
                                   <img
                                     src={Linkdin}
-                                    alt=""
+                                    alt="linkdin"
                                     style={{
                                       height: "4%",
                                       width: "4%",
@@ -1059,7 +1059,7 @@ function JobListing() {
                                 <span class="icon-twitter">
                                   <img
                                     src={Twitter}
-                                    alt=""
+                                    alt="twitter"
                                     style={{
                                       height: "4%",
                                       width: "4%",
@@ -1072,7 +1072,7 @@ function JobListing() {
                                 <span class="icon-pinterest">
                                   <img
                                     src={Pinterest}
-                                    alt=""
+                                    alt="pinterest"
                                     style={{
                                       height: "4%",
                                       width: "4%",
@@ -1360,7 +1360,7 @@ function JobListing() {
                                 <span class="icon-facebook">
                                   <img
                                     src={Facebook}
-                                    alt=""
+                                    alt="facebook"
                                     style={{
                                       height: "4%",
                                       width: "4%",
@@ -1373,7 +1373,7 @@ function JobListing() {
                                 <span class="icon-linkdin">
                                   <img
                                     src={Linkdin}
-                                    alt=""
+                                    alt="linkdin"
                                     style={{
                                       height: "4%",
                                       width: "4%",
@@ -1386,7 +1386,7 @@ function JobListing() {
                                 <span class="icon-twitter">
                                   <img
                                     src={Twitter}
-                                    alt=""
+                                    alt="twitter"
                                     style={{
                                       height: "4%",
                                       width: "4%",
@@ -1399,7 +1399,7 @@ function JobListing() {
                                 <span class="icon-pinterest">
                                   <img
                                     src={Pinterest}
-                                    alt=""
+                                    alt="pinterest"
                                     style={{
                                       height: "4%",
                                       width: "4%",
@@ -1687,7 +1687,7 @@ function JobListing() {
                                 <span class="icon-facebook">
                                   <img
                                     src={Facebook}
-                                    alt=""
+                                    alt="facebook"
                                     style={{
                                       height: "4%",
                                       width: "4%",
@@ -1700,7 +1700,7 @@ function JobListing() {
                                 <span class="icon-linkdin">
                                   <img
                                     src={Linkdin}
-                                    alt=""
+                                    alt="linkdin"
                                     style={{
                                       height: "4%",
                                       width: "4%",
@@ -1713,7 +1713,7 @@ function JobListing() {
                                 <span class="icon-twitter">
                                   <img
                                     src={Twitter}
-                                    alt=""
+                                    alt="twitter"
                                     style={{
                                       height: "4%",
                                       width: "4%",
@@ -1726,7 +1726,7 @@ function JobListing() {
                                 <span class="icon-pinterest">
                                   <img
                                     src={Pinterest}
-                                    alt=""
+                                    alt="pinterest"
                                     style={{
                                       height: "4%",
                                       width: "4%",
@@ -2015,7 +2015,7 @@ function JobListing() {
                                 <span class="icon-facebook">
                                   <img
                                     src={Facebook}
-                                    alt=""
+                                    alt="facebook"
                                     style={{
                                       height: "4%",
                                       width: "4%",
@@ -2028,7 +2028,7 @@ function JobListing() {
                                 <span class="icon-linkdin">
                                   <img
                                     src={Linkdin}
-                                    alt=""
+                                    alt="linkdin"
                                     style={{
                                       height: "4%",
                                       width: "4%",
@@ -2041,7 +2041,7 @@ function JobListing() {
                                 <span class="icon-twitter">
                                   <img
                                     src={Twitter}
-                                    alt=""
+                                    alt="twitter"
                                     style={{
                                       height: "4%",
                                       width: "4%",
@@ -2054,7 +2054,7 @@ function JobListing() {
                                 <span class="icon-pinterest">
                                   <img
                                     src={Pinterest}
-                                    alt=""
+                                    alt="pinterest"
                                     style={{
                                       height: "4%",
                                       width: "4%",
@@ -2353,7 +2353,7 @@ function JobListing() {
                                 <span class="icon-facebook">
                                   <img
                                     src={Facebook}
-                                    alt=""
+                                    alt="facebook"
                                     style={{
                                       height: "4%",
                                       width: "4%",
@@ -2366,7 +2366,7 @@ function JobListing() {
                                 <span class="icon-linkdin">
                                   <img
                                     src={Linkdin}
-                                    alt=""
+                                    alt="linkdin"
                                     style={{
                                       height: "4%",
                                       width: "4%",
@@ -2379,7 +2379,7 @@ function JobListing() {
                                 <span class="icon-twitter">
                                   <img
                                     src={Twitter}
-                                    alt=""
+                                    alt="twitter"
                                     style={{
                                       height: "4%",
                                       width: "4%",
@@ -2392,7 +2392,7 @@ function JobListing() {
                                 <span class="icon-pinterest">
                                   <img
                                     src={Pinterest}
-                                    alt=""
+                                    alt="pinterest"
                                     style={{
                                       height: "4%",
                                       width: "4%",

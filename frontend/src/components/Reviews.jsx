@@ -7,7 +7,7 @@ function Reviews() {
       <div className="reviews-slider">
         <div className="wrapper">
           <div className="box">
-            <img src={kunal} alt="" />
+            <img src={kunal} alt="reviewimage" />
             <p>
               My job is very easy to prospect as a result, and I don't waste my
               time or other people's time because I know before emailing or
@@ -22,7 +22,7 @@ function Reviews() {
                 width: "100px",
                 fontWeight: "bold",
                 borderRadius: "10px",
-                marginTop: "20px",
+                // marginTop: "10px",
               }}
             >
               Read More
@@ -30,7 +30,7 @@ function Reviews() {
           </div>
 
           <div className=" box">
-            <img src={honey} alt="" />
+            <img src={honey} alt="honeykumar" />
 
             <p>
               Easy to use, great filters, fast, powerful. I loved the fact that
@@ -44,7 +44,7 @@ function Reviews() {
                 width: "100px",
                 fontWeight: "bold",
                 borderRadius: "10px",
-                marginTop: "75px",
+                marginTop: "50px",
               }}
             >
               Read More
@@ -53,7 +53,7 @@ function Reviews() {
           <div className=" box">
             <img
               src="https://cdn.apna.co/employerDashboard_FE/empowerment.webp"
-              alt=""
+              alt="empowerment"
             />
 
             <p>
@@ -69,7 +69,7 @@ function Reviews() {
                 width: "100px",
                 fontWeight: "bold",
                 borderRadius: "10px",
-                marginTop: "45px",
+                marginTop: "50px",
               }}
             >
               Read More

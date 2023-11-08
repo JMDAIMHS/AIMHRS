@@ -37,7 +37,6 @@ function Header() {
         <a href="#" className="logo">
           <img src={LOGO} alt="AIMHS Logo" />
         </a>
-
         <div className="icons">
           {user || employer ? (
             <>
@@ -47,6 +46,7 @@ function Header() {
                   fontSize: "1.5rem",
                   fontWeight: "bold",
                   color: "black",
+                  width: "100%",
                 }}
               >
                 Welcome , {user?.username || employer?.username || user}

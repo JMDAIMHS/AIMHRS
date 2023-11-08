@@ -186,8 +186,10 @@ section {
 }
 
 .header .header-1 .navbar a:hover {
-  background: var(--header-color);
-  border-radius: 1.5rem;
+  /* background: var(--header-color); */
+  background-color: #28372c;
+  border-radius: 1.2rem;
+  color: white;
 }
 
 /* Reset some default margin and padding */

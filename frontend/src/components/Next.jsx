@@ -23,13 +23,19 @@ function Next() {
             </p>
           </div>
         </div>
-        <div className="row pb-0 block__19738 section-counter">
+        <div
+          className="row pb-0 block__19738 section-counter"
+          style={{ textAlign: "center" }}
+        >
           <div className="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
             <div className="d-block align-items-center justify-content-center mb-2 f">
               <strong
                 className="number"
                 data-number="2023"
-                style={{ fontSize: "40px", color: "green" }}
+                style={{
+                  fontSize: "40px",
+                  color: "green",
+                }}
               >
                 2,023
               </strong>
