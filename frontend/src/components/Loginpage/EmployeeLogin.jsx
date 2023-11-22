@@ -30,7 +30,7 @@ function EmployerLoginForm() {
 
     try {
       const response = await axios.post(
-        "https://aimhrs-3xlq.onrender.com/employerlogin",
+        "https://api.allindiamarketinghrsolution.com/employerlogin",
         {
           email,
           password,

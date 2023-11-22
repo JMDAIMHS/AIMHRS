@@ -29,7 +29,7 @@ function ResetPassword() {
     }
 
     axios
-      .post("https://aimhrs-3xlq.onrender.com/reset-password", {
+      .post("https://api.allindiamarketinghrsolution.com/reset-password", {
         password,
         resetToken, // Pass the reset token to the server
       })

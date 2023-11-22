@@ -31,7 +31,7 @@ function JobSeekerSignUpForm() {
 
     try {
       const response = await axios.post(
-        "https://aimhrs-3xlq.onrender.com/signup",
+        "https://api.allindiamarketinghrsolution.com/signup",
         {
           username,
           email,

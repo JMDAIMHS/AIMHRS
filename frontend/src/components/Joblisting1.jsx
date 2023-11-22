@@ -16,7 +16,7 @@ function JobListing1() {
 
   useEffect(() => {
     axios
-      .get("https://aimhrs-3xlq.onrender.com/jobpostdata")
+      .get("https://api.allindiamarketinghrsolution.com/jobpostdata")
       .then((response) => {
         setJobData(response.data);
       })

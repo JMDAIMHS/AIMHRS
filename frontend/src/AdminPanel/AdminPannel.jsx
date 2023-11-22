@@ -19,7 +19,7 @@ function YourComponent() {
   useEffect(() => {
     // Make an API request to fetch job listings
     axios
-      .get("https://aimhrs-3xlq.onrender.com/jobseekersdata")
+      .get("https://api.allindiamarketinghrsolution.com/jobseekersdata")
       .then((response) => {
         setJobs(response.data); // Set the fetched data to the 'jobs' state
       })
@@ -30,7 +30,7 @@ function YourComponent() {
 
   useEffect(() => {
     axios
-      .get("https://aimhrs-3xlq.onrender.com/getsalesenquiry")
+      .get("https://api.allindiamarketinghrsolution.com/getsalesenquiry")
       .then((response) => {
         setsales(response.data);
       })
@@ -42,7 +42,7 @@ function YourComponent() {
   const [visitCount, setVisitCount] = useState(0);
 
   useEffect(() => {
-    fetch("https://aimhrs-3xlq.onrender.com/api/visit-count")
+    fetch("https://api.allindiamarketinghrsolution.com/api/visit-count")
       .then((res) => res.json())
       .then((data) => setVisitCount(data.count))
       .catch((error) => console.error(error));
@@ -186,7 +186,7 @@ function YourComponent() {
                   styl
                 >
                   <a
-                    href={`https://aimhrs-3xlq.onrender.com/api/download/${job.resumePath}`} // Replace with the correct URL
+                    href={`https://api.allindiamarketinghrsolution.com/api/download/${job.resumePath}`} // Replace with the correct URL
                     target="_blank"
                     download
                     rel="noopener noreferrer"

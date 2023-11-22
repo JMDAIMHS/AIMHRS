@@ -41,7 +41,7 @@ const JobPost = ({ onClose }) => {
     };
 
     axios
-      .post("https://aimhrs-3xlq.onrender.com/jobpost", jobData, {
+      .post("https://api.allindiamarketinghrsolution.com/jobpost", jobData, {
         headers: {
           "Content-Type": "application/json",
         },
@@ -103,6 +103,7 @@ const JobPost = ({ onClose }) => {
           name="position"
           onChange={handleChange}
           value={jobDetails.position}
+          placeholder="Example-Bussiness Developer"
         />
         <label>Location:</label>
         <input
