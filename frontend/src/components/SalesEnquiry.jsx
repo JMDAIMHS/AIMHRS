@@ -35,11 +35,15 @@ function SalesEnquiry() {
     };
 
     axios
-      .post("https://aimhrs-3xlq.onrender.com/salesenquiry", jobData, {
-        headers: {
-          "Content-Type": "application/json",
-        },
-      })
+      .post(
+        "https://api.allindiamarketinghrsolution.com/salesenquiry",
+        jobData,
+        {
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      )
       .then((response) => {
         // console.log("API Response:", response.data);
         if (response.status === 201) {

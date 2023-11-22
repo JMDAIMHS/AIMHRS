@@ -35,7 +35,7 @@ function EmployerSignUpFrom() {
 
     try {
       const response = await axios.post(
-        "https://aimhrs-3xlq.onrender.com/employer",
+        "https://api.allindiamarketinghrsolution.com/employer",
         {
           username,
           mobile,

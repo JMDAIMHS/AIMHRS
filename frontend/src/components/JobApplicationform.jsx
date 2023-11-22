@@ -32,7 +32,7 @@ const JobApplicationForm = ({ onClose }) => {
     formData.append("profile", EmpoyerDetails.profile);
 
     axios
-      .post("https://aimhrs-3xlq.onrender.com/register", formData)
+      .post("https://api.allindiamarketinghrsolution.com/register", formData)
       .then((res) => {
         console.log(res);
         if (res.status === 200) {

@@ -25,7 +25,9 @@ function JobSeekerLoginForm() {
 
   const resetPassword = () => {
     axios
-      .post("https://aimhrs-3xlq.onrender.com/reset-password", { email })
+      .post("https://api.allindiamarketinghrsolution.com/reset-password", {
+        email,
+      })
       .then((response) => {
         if (response.data.success) {
           setMessage("Password reset link sent to your email.");
@@ -43,7 +45,7 @@ function JobSeekerLoginForm() {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "https://aimhrs-3xlq.onrender.com/login",
+        "https://api.allindiamarketinghrsolution.com/login",
         {
           email,
           password,
